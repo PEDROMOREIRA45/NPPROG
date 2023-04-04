@@ -1,6 +1,6 @@
-package PPROG_TP04.figuras_comparable;
+package ZF_PPROG_TP04.figuras_arraylist;
 
-public abstract class Figura implements Comparable<Figura> {
+public abstract class Figura {
 
     private String cor;
 
@@ -29,17 +29,4 @@ public abstract class Figura implements Comparable<Figura> {
 
     public abstract double calcularArea();
 
-    @Override
-    public int compareTo(Figura outraFigura) {
-        double area1 = this.calcularArea();
-        double area2 = outraFigura.calcularArea();
-
-        if(area1<area2)
-            return -1;
-        else if(area1>area2)
-            return 1;
-        else
-            return 0;
-    }
 }
-

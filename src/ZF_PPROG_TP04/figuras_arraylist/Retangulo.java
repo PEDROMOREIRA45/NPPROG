@@ -1,4 +1,4 @@
-package PPROG_TP04.figuras_equals;
+package ZF_PPROG_TP04.figuras_arraylist;
 
 public class Retangulo extends Figura {
 
@@ -22,14 +22,14 @@ public class Retangulo extends Figura {
 
     public Retangulo(String cor) {
         super(cor);
-        comprimento = COMPRIMENTO_POR_OMISSAO;
-        largura = LARGURA_POR_OMISSAO;
+        comprimento=COMPRIMENTO_POR_OMISSAO;
+        largura=LARGURA_POR_OMISSAO;
     }
 
     public Retangulo() {
         super();
-        comprimento = COMPRIMENTO_POR_OMISSAO;
-        largura = LARGURA_POR_OMISSAO;
+        comprimento=COMPRIMENTO_POR_OMISSAO;
+        largura=LARGURA_POR_OMISSAO;
     }
 
     public double getComprimento() {
@@ -54,18 +54,8 @@ public class Retangulo extends Figura {
                 comprimento, largura, super.toString());
     }
 
-//    @Override
-//    public boolean equals(Object outroObjeto) {
-//        if (!super.equals(outroObjeto)) {
-//            return false;
-//        }
-//        Retangulo r = (Retangulo) outroObjeto;
-//        return this.comprimento == r.getComprimento() && this.largura == r.getLargura();
-//    }
-
     @Override
     public double calcularArea() {
         return comprimento * largura;
     }
-
 }

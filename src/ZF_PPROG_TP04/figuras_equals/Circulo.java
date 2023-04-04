@@ -1,4 +1,4 @@
-package PPROG_TP04.figuras_equals;
+package ZF_PPROG_TP04.figuras_equals;
 
 public class Circulo extends Figura {
 

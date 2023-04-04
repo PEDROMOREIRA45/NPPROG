@@ -1,4 +1,4 @@
-package PPROG_TP04.figuras_comparable;
+package ZF_PPROG_TP04.figuras_comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;

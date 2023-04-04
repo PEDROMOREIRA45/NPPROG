@@ -1,6 +1,6 @@
-package PPROG_TP04.figuras_equals;
+package ZF_PPROG_TP04.figuras_comparable;
 
-public abstract class Figura  {
+public abstract class Figura implements Comparable<Figura> {
 
     private String cor;
 
@@ -27,18 +27,19 @@ public abstract class Figura  {
         return String.format("Cor: %s", cor);
     }
 
-//    @Override
-//    public boolean equals(Object outroObjeto) {
-//        if (this == outroObjeto) {
-//            return true;
-//        }
-//        if (outroObjeto == null || this.getClass() != outroObjeto.getClass()) {
-//            return false;
-//        }
-//        Figura outraFigura = (Figura) outroObjeto;
-//        return this.cor.equalsIgnoreCase(outraFigura.cor);
-//    }
-
     public abstract double calcularArea();
+
+    @Override
+    public int compareTo(Figura outraFigura) {
+        double area1 = this.calcularArea();
+        double area2 = outraFigura.calcularArea();
+
+        if(area1<area2)
+            return -1;
+        else if(area1>area2)
+            return 1;
+        else
+            return 0;
+    }
 }
 

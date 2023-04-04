@@ -1,4 +1,4 @@
-package PPROG_TP04.figuras_comparator;
+package ZF_PPROG_TP04.figuras_comparator;
 
 public abstract class Figura {
 

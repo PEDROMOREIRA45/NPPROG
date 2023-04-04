@@ -1,4 +1,4 @@
-package PPROG_TP04.figuras_arraylist;
+package ZF_PPROG_TP04.figuras_equals;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,19 +26,22 @@ public class MainFiguras {
         figuras.add(r1);
         figuras.add(r2);
 
-        System.out.println("\n### Figuras Armazenadas no ArrayList (for) ###");
-        listarFor(figuras);
         System.out.println("\n### Figuras Armazenadas no ArrayList (foreach) ###");
         listarForEach(figuras);
 
-    }
+        System.out.println("\n### Remover Objeto do Contentor ###");
+        Circulo c = new Circulo();
+        System.out.println("Objeto: " + c);
+        System.out.println("Removido? " + figuras.remove(c));
+        System.out.println("Contentor:");
+        listarForEach(figuras);
+//        System.out.println(figuras.remove(null));
 
-    private static void listarFor(List<Figura> lista) {
-        for (int i = 0; i < lista.size(); i++) {
-            Figura figura = lista.get(i);
-
-            System.out.printf("%s Área: %.1f %n", figura.toString(), figura.calcularArea());
-        }
+        System.out.println("\n### Equals ###");
+        System.out.println("Instâncias com características iguais: " + c1.equals(new Circulo()));
+        System.out.println("Instâncias do mesmo tipo com características diferentes: " + c1.equals(c2));
+        System.out.println("Instâncias de tipos diferentes: " + c1.equals(r1));
+        System.out.println("Mesma Instância: " + c1.equals(c1));
     }
 
     private static void listarForEach(List<Figura> lista) {

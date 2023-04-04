@@ -1,4 +1,4 @@
-package PPROG_TP04.figuras_comparable;
+package ZF_PPROG_TP04.figuras_comparator;
 
 public class Circulo extends Figura {
 

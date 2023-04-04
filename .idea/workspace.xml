@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="TP03,PL03">
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/MainFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/MainFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/MainFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/MainFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/Retangulo.java" afterDir="false" />
+    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="TP04">
+      <change afterPath="$PROJECT_DIR$/src/PPROG_PL04/ContGas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PPROG_PL04/Contador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_arraylist/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_arraylist/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/MainFiguras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_arraylist/MainFiguras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_arraylist/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_arraylist/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparable/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparable/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/MainFiguras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparable/MainFiguras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparable/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparable/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparator/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparator/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/MainFiguras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparator/MainFiguras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_comparator/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_comparator/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_equals/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_equals/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/MainFiguras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_equals/MainFiguras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP04/figuras_equals/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP04/figuras_equals/Retangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <recent name="PPROG_TP03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PPROG_TP04.figuras_comparable.MainFiguras">
+  <component name="RunManager" selected="Application.ZF_PPROG_TP04.figuras_comparable.MainFiguras">
     <configuration name="MainContribuinte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ZF_PPROG_PL03B.MainContribuinte" />
       <module name="NPPROG" />
@@ -88,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="MainFiguras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PPROG_TP04.figuras_arraylist.MainFiguras" />
+      <option name="MAIN_CLASS_NAME" value="ZF_PPROG_TP04.figuras_arraylist.MainFiguras" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PPROG_TP04.figuras_arraylist.*" />
+          <option name="PATTERN" value="ZF_PPROG_TP04.figuras_arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PPROG_TP04.figuras_comparable.MainFiguras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PPROG_TP04.figuras_comparable.MainFiguras" />
+    <configuration name="ZF_PPROG_TP04.figuras_comparable.MainFiguras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZF_PPROG_TP04.figuras_comparable.MainFiguras" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PPROG_TP04.figuras_comparable.*" />
+          <option name="PATTERN" value="ZF_PPROG_TP04.figuras_comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PPROG_TP04.figuras_comparable.MainFiguras" />
+        <item itemvalue="Application.ZF_PPROG_TP04.figuras_comparable.MainFiguras" />
         <item itemvalue="Application.MainFiguras" />
         <item itemvalue="Application.MainContribuinte" />
         <item itemvalue="Application.MainVencimentos" />
@@ -179,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680606885775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TP04">
+      <created>1680627018661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680627018661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +206,8 @@
     <MESSAGE value="TP01,TP02,PL01" />
     <MESSAGE value="TP03,PL02" />
     <MESSAGE value="TP03,PL03" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP03,PL03" />
+    <MESSAGE value="TP04" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP04" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NPPROG$MoradiaTest.ic" NAME="MoradiaTest Coverage Results" MODIFIED="1680557994204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
