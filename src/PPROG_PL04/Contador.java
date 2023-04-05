@@ -15,11 +15,13 @@ public abstract class Contador {
        this.consumo= consumo;
     }
 
-    public Contador (){
-        this.id= ID_POR_OMISSAO;
+    public Contador (String id){
+        this.id= id;
         this.cliente= CLIENTE_POR_OMISSAO;
         this.consumo= CONSUMO_POR_OMISSAO;
     }
+
+
 
     public String getId() {
         return id;
