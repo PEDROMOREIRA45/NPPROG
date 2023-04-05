@@ -1,34 +1,27 @@
-package PPROG_PL04.Contadores;
+package AV_PPROG_PL04;
 
 public abstract class Contador {
-
     private String id;
-
     private String cliente;
-
     private double consumo;
 
-    private final String ID_POR_OMISSAO ="SEMCONT";
-    private final String CLIENTE_POR_OMISSAO ="SEM CLIENTE";
-    private final double CONS_POR_OMISSAO = 0.0;
-
+    private static final String ID_POR_OMISSAO="Sem ID";
+    private static final String CLIENTE_POR_OMISSAO ="Sem nome";
+    private static final double CONSUMO_POR_OMISSAO=0;
 
     public Contador (String id, String cliente, double consumo){
-        this.id=id;
-        this.cliente=cliente;
-        this.consumo=consumo;
+       this.id= id;
+       this.cliente= cliente;
+       this.consumo= consumo;
     }
 
-    public Contador (){
-        this.id=ID_POR_OMISSAO;
-        this.cliente=CLIENTE_POR_OMISSAO;
-        this.consumo=CONS_POR_OMISSAO;
+    public Contador (String id){
+        this.id= id;
+        this.cliente= CLIENTE_POR_OMISSAO;
+        this.consumo= CONSUMO_POR_OMISSAO;
     }
 
-    public Contador(String s) {
-        this.cliente=CLIENTE_POR_OMISSAO;
-        this.consumo=CONS_POR_OMISSAO;
-    }
+
 
     public String getId() {
         return id;
@@ -56,8 +49,8 @@ public abstract class Contador {
 
     @Override
     public String toString() {
-        return String.format("Contador %3d com o cliente %10s",id,cliente );
+        return String.format("Consumidor %8s com identificação %6s",cliente, id);
     }
 
-    public abstract double calcularPreco();
+    public abstract double calcConsumo ();
 }

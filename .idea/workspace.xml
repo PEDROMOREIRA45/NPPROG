@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="PL04">
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL04/ContadorElect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL04/ContadorElectTarfSimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL04/ContadoresElecBiHorar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL04/MainContadores.java" afterDir="false" />
+    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="PL04_01">
+      <change afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04B/Escola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04B/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/ContGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_PL04/ContGas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_PL04/Contador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/FA_Contador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/ContGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContGas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/ContadorElect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContadorElect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/ContadorElectTarfSimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContadorElectTarfSimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contadores/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/Contador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contadores/ContadorElect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadorElect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contadores/ContadoresElecBiHorar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresElecBiHorar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contadores/ContadoresElecNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresElecNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contadores/ContadoresGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresGas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/Contadores/ContadoresGasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresGasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/ContadoresElecBiHorar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContadoresElecBiHorar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL04/MainContadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV_PPROG_PL04/MainContadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +73,11 @@
   </component>
   <component name="RunManager" selected="Application.MainContadores">
     <configuration name="MainContadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PPROG_PL04.MainContadores" />
+      <option name="MAIN_CLASS_NAME" value="AV_PPROG_PL04.MainContadores" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PPROG_PL04.*" />
+          <option name="PATTERN" value="AV_PPROG_PL04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680627018661</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PL04_01">
+      <created>1680694109677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680694109677</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +210,8 @@
     <MESSAGE value="TP03,PL02" />
     <MESSAGE value="TP03,PL03" />
     <MESSAGE value="TP04" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP04" />
+    <MESSAGE value="PL04_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="PL04_01" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NPPROG$MoradiaTest.ic" NAME="MoradiaTest Coverage Results" MODIFIED="1680557994204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

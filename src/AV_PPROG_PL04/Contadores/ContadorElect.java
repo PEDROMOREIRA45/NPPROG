@@ -1,4 +1,4 @@
-package PPROG_PL04.Contadores;
+package AV_PPROG_PL04.Contadores;
 
 public abstract class ContadorElect extends Contador {
 

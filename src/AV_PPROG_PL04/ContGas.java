@@ -1,4 +1,4 @@
-package PPROG_PL04;
+package AV_PPROG_PL04;
 
 public class ContGas extends Contador{
     private final String prefix ="GAS-";

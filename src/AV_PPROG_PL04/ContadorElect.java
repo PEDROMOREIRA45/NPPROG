@@ -1,4 +1,4 @@
-package PPROG_PL04;
+package AV_PPROG_PL04;
 
 public abstract class ContadorElect extends Contador {
     private final String prefix ="ELECT-";

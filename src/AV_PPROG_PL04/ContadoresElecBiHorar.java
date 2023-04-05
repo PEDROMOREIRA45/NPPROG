@@ -1,9 +1,9 @@
-package PPROG_PL04;
+package AV_PPROG_PL04;
 
 public class ContadoresElecBiHorar extends ContadorElect{
 
-    private double potenciaVazio;
-    private double potenciaForaVazio;
+    private double horasVazio;
+    private double horasForaVazio;
     private static final double CUST_VAZIO = 0.066;
     private static final double CUST_FORAVAZIO = 0.14;
 
@@ -16,24 +16,24 @@ public class ContadoresElecBiHorar extends ContadorElect{
     }
 
     public double getPotenciaVazio() {
-        return potenciaVazio;
+        return horasVazio;
     }
 
-    public double getPotenciaForaVazio() {
-        return potenciaForaVazio;
+    public double getHorasForaVazio() {
+        return horasForaVazio;
     }
 
     public void setPotenciaVazio(double potenciaVazio) {
-        this.potenciaVazio = potenciaVazio;
+        this.horasVazio = potenciaVazio;
     }
 
-    public void setPotenciaForaVazio(double potenciaForaVazio) {
-        this.potenciaForaVazio = potenciaForaVazio;
+    public void setHorasForaVazio(double horasForaVazio) {
+        this.horasForaVazio = horasForaVazio;
     }
 
     @Override
     public double calcConsumo() {
-        return ((potenciaVazio*CUST_VAZIO)+(potenciaForaVazio*CUST_FORAVAZIO));
+        return ((horasVazio *CUST_VAZIO)+(horasForaVazio *CUST_FORAVAZIO));
     }
 
     public String toString() {
