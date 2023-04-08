@@ -9,8 +9,10 @@ public class Professor extends Escola{
 
     private double majorCoordenad=0.5;
 
-    public Professor(String nome, int numIdentCivil) {
+    public Professor(String nome, int numIdentCivil, String categoria, double salarioBase) {
         super(nome, numIdentCivil);
+        this.categoria=categoria;
+        this.salarioBase=salarioBase;
     }
 
     public String getCategoria() {
@@ -53,5 +55,10 @@ public class Professor extends Escola{
             return salarioBase*(1+majorAdjunto);
         else
             return salarioBase;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%20s categoria: %8s",super.toString(),categoria);
     }
 }
