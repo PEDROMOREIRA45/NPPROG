@@ -4,58 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="PL04B_01, TP03_00">
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/MainVencimentos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/Trabalhador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/TrabalhadorComissao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/TrabalhadorHora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/TrabalhadorPeca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/MainVencimentos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/Trabalhador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/TrabalhadorComissao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/TrabalhadorHora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/TrabalhadorPeca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/MainVencimentos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/Trabalhador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/TrabalhadorComissao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/TrabalhadorHora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/TrabalhadorPeca.java" afterDir="false" />
+    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="PL05">
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Property.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL03A/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/MainVencimentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL03A/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/Trabalhador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL03A/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/TrabalhadorComissao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL03A/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/TrabalhadorHora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL03A/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/TrabalhadorPeca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContGas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContadorElect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContadorElect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContadorElectTarfSimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContadorElectTarfSimp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/Contador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadorElect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadorElect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresElecBiHorar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresElecBiHorar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresElecNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresElecNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresGas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/Contadores/ContadoresGasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresGasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/ContadoresElecBiHorar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContadoresElecBiHorar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04/MainContadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/MainContadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04B/Escola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/Escola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04B/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/Estudante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04B/EstudanteBolseiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/EstudanteBolseiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04B/EstudanteSemBolsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/EstudanteSemBolsa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04B/MainEscola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/MainEscola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV_PPROG_PL04B/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_TP03COMPL/AutomovelComMatricula/Automovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComMatricula/Automovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_TP03COMPL/AutomovelComMatricula/MainAutomovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComMatricula/MainAutomovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_TP03COMPL/AutomovelComMatricula/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComMatricula/Matricula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_TP03COMPL/AutomovelComProprietario/Automovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComProprietario/Automovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_TP03COMPL/AutomovelComProprietario/MainAutomovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComProprietario/MainAutomovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_TP03COMPL/biblioteca/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_TP05COMPL/biblioteca/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_TP03COMPL/biblioteca/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPROG_TP05COMPL/biblioteca/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP03/automovelComMatricula/Automovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPRPG_TP05/automovelComMatricula/Automovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP03/automovelComMatricula/MainAutomovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPRPG_TP05/automovelComMatricula/MainAutomovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP03/automovelComMatricula/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPRPG_TP05/automovelComMatricula/Matricula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP03/biblioteca/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPRPG_TP05/biblioteca/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP03/biblioteca/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPRPG_TP05/biblioteca/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/Public/NPPROG/src/PPROG_PL05/VencimentosComComparador"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/NPPROG/src/PPROG_PL05/VencimentosComComparador&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Public\NPPROG\src\PPROG_PL05\VencimentosComComparador" />
@@ -246,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680972337723</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="PL05">
+      <created>1681035944063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681035944063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +230,8 @@
     <MESSAGE value="PL04_01" />
     <MESSAGE value="PL04_02,PL04B_00" />
     <MESSAGE value="PL04B_01, TP03_00" />
-    <option name="LAST_COMMIT_MESSAGE" value="PL04B_01, TP03_00" />
+    <MESSAGE value="PL05" />
+    <option name="LAST_COMMIT_MESSAGE" value="PL05" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NPPROG$MoradiaTest.ic" NAME="MoradiaTest Coverage Results" MODIFIED="1680557994204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
