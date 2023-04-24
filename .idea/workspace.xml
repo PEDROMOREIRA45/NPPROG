@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="PL05">
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Property.java" afterDir="false" />
+    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="Project">
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/LocationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/PropertyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Repositories/PropertyTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Repositories/SunExposureType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Property.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -67,13 +71,13 @@
       <recent name="PPROG_TP03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PPROG_PL05.VencimentosComComparador.MainVencimentos">
-    <configuration name="MainAutomovel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PPRPG_TP05.automovelComMatricula.MainAutomovel" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AAA_Project.Main" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PPRPG_TP05.automovelComMatricula.*" />
+          <option name="PATTERN" value="AAA_Project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEscola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZAV_PPROG_PL04B.MainEscola" />
+    <configuration name="MainAutomovel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PPRPG_TP05.automovelComMatricula.MainAutomovel" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZAV_PPROG_PL04B.*" />
+          <option name="PATTERN" value="PPRPG_TP05.automovelComMatricula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparador.MainVencimentos" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparable.MainVencimentos" />
         <item itemvalue="Application.MainVencimentos" />
         <item itemvalue="Application.MainAutomovel" />
-        <item itemvalue="Application.MainEscola" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681035944063</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Project">
+      <created>1682273529083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682273529083</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +242,8 @@
     <MESSAGE value="PL04_02,PL04B_00" />
     <MESSAGE value="PL04B_01, TP03_00" />
     <MESSAGE value="PL05" />
-    <option name="LAST_COMMIT_MESSAGE" value="PL05" />
+    <MESSAGE value="Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NPPROG$MoradiaTest.ic" NAME="MoradiaTest Coverage Results" MODIFIED="1680557994204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

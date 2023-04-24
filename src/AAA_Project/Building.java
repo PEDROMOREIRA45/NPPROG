@@ -1,6 +1,8 @@
 package AAA_Project;
 
-public class Building extends Property{
+import AAA_Project.Repositories.PropertyTypeEnum;
+
+public class Building extends Property {
     private int numberBedrooms;
     private int numberParking;
     private int numberBathrooms;
@@ -11,28 +13,28 @@ public class Building extends Property{
         super(type);
     }
 */
-    public Building (double areaProperty, double distanceCityCenter,int numberBedrooms,int numberParking){
-        super(areaProperty, distanceCityCenter);
+    public Building (PropertyTypeEnum type, double areaProperty, double distanceCityCenter,int numberBedrooms,int numberParking,String street,int zipCode,String stateUS,String city,String district){
+        super(type, areaProperty, distanceCityCenter, street, zipCode, stateUS, city, district);
         this.numberBedrooms=numberBedrooms;
         this.numberParking=numberParking;
     }
 
-    public Building (double areaProperty, double distanceCityCenter,int numberBedrooms,int numberParking,int numberBathrooms){
-        super(areaProperty, distanceCityCenter);
+    public Building (PropertyTypeEnum type, double areaProperty, double distanceCityCenter,int numberBedrooms,int numberParking,int numberBathrooms,String street,int zipCode,String stateUS,String city,String district){
+        super(type, areaProperty, distanceCityCenter, street, zipCode, stateUS, city, district);
         this.numberBedrooms=numberBedrooms;
         this.numberParking=numberParking;
         this.numberBathrooms=numberBathrooms;
     }
 
-    public Building (double areaProperty, double distanceCityCenter,int numberBedrooms,int numberParking,String availableEquipment){
-        super(areaProperty, distanceCityCenter);
+    public Building (PropertyTypeEnum type, double areaProperty, double distanceCityCenter,int numberBedrooms,int numberParking,String availableEquipment,String street,int zipCode,String stateUS,String city,String district){
+        super(type, areaProperty, distanceCityCenter, street, zipCode, stateUS, city, district);
         this.numberBedrooms=numberBedrooms;
         this.numberParking=numberParking;
         this.availableEquipment=availableEquipment;
     }
 
-    public Building (double areaProperty, double distanceCityCenter,int numberBedrooms,int numberParking,int numberBathrooms,String availableEquipment){
-        super(areaProperty, distanceCityCenter);
+    public Building (PropertyTypeEnum type, double areaProperty, double distanceCityCenter, int numberBedrooms, int numberParking, int numberBathrooms, String availableEquipment, String street, int zipCode, String stateUS, String city, String district){
+        super(type, areaProperty, distanceCityCenter, street, zipCode, stateUS, city, district);
         this.numberBedrooms=numberBedrooms;
         this.numberParking=numberParking;
         this.numberBathrooms=numberBathrooms;
@@ -74,4 +76,8 @@ public class Building extends Property{
     // falta o to.String
 
 
+    @Override
+    public String toString() {
+        return String.format("%s ; Building{ numberBedrooms= %d numberParking= %d numberBathrooms=  %d availableEquipment=  %s ", super.toString(),numberBedrooms,numberParking,numberBathrooms,availableEquipment);
+    }
 }
