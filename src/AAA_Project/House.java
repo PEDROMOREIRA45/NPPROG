@@ -1,40 +1,45 @@
 package AAA_Project;
 
+import AAA_Project.Repositories.PropertyTypeEnum;
+import AAA_Project.Repositories.SunExposureType;
+
 public class House extends Building {
 
-    //
+
     private boolean basement;
     private boolean habitableLoft;
 
-    // falta sunexposure (interface? implements)
+    private SunExposureType sunExposure;
 
- /*   public House(PropertyType type) {
-        super(type);
-    }
-  */
+    private PropertyTypeEnum type;
 
-    public House(double areaProperty, double distanceCityCenter,int numberBedrooms, int numberParking, boolean basement, boolean habitableLoft) {
-        super(areaProperty, distanceCityCenter, numberBedrooms, numberParking);
+    public House(PropertyTypeEnum type, double areaProperty, double distanceCityCenter,int numberBedrooms, int numberParking, boolean basement, boolean habitableLoft,String street,int zipCode,String stateUS,String city,String district,SunExposureType sunExposure) {
+        super(type, areaProperty, distanceCityCenter, numberBedrooms, numberParking, street, zipCode, stateUS, city, district);
         this.basement=basement;
         this.habitableLoft=habitableLoft;
+        this.sunExposure=sunExposure;
     }
 
-    public House(double areaProperty, double distanceCityCenter,int numberBedrooms, int numberParking, int numberBathrooms,boolean basement,boolean habitableLoft) {
-        super(areaProperty, distanceCityCenter, numberBedrooms, numberParking, numberBathrooms);
+    public House(PropertyTypeEnum type, double areaProperty, double distanceCityCenter,int numberBedrooms, int numberParking, int numberBathrooms,boolean basement,boolean habitableLoft,String street,int zipCode,String stateUS,String city,String district,SunExposureType sunExposure) {
+        super(type, areaProperty, distanceCityCenter, numberBedrooms, numberParking, numberBathrooms, street, zipCode, stateUS, city, district);
         this.basement=basement;
         this.habitableLoft=habitableLoft;
+        this.sunExposure=sunExposure;
     }
 
-    public House(double areaProperty, double distanceCityCenter, int numberBedrooms, int numberParking, String availableEquipment,boolean basement,boolean habitableLoft) {
-        super(areaProperty, distanceCityCenter, numberBedrooms, numberParking, availableEquipment);
+    public House(PropertyTypeEnum type, double areaProperty, double distanceCityCenter, int numberBedrooms, int numberParking, String availableEquipment,boolean basement,boolean habitableLoft,String street,int zipCode,String stateUS,String city,String district,SunExposureType sunExposure) {
+        super(type, areaProperty, distanceCityCenter, numberBedrooms, numberParking, availableEquipment, street, zipCode, stateUS, city, district);
         this.basement=basement;
         this.habitableLoft=habitableLoft;
+        this.sunExposure=sunExposure;
     }
 
-    public House(double areaProperty, double distanceCityCenter, int numberBedrooms, int numberParking, int numberBathrooms, String availableEquipment,boolean basement,boolean habitableLoft) {
-        super(areaProperty, distanceCityCenter,numberBedrooms, numberParking, numberBathrooms, availableEquipment);
+    public House(PropertyTypeEnum type, double areaProperty, double distanceCityCenter, int numberBedrooms, int numberParking, int numberBathrooms, String availableEquipment,boolean basement,boolean habitableLoft,String street,int zipCode,String stateUS,String city,String district,SunExposureType sunExposure) {
+        super(type, areaProperty, distanceCityCenter,numberBedrooms, numberParking, numberBathrooms, availableEquipment, street, zipCode, stateUS, city, district);
         this.basement=basement;
         this.habitableLoft=habitableLoft;
+        this.sunExposure=sunExposure;
+
     }
 
 // falta o constructor com SunExposure
@@ -55,8 +60,9 @@ public class House extends Building {
         this.habitableLoft = habitableLoft;
     }
 
-// falta o Gettere e Setter SunExposure
-
-// a ver o to.String
+    @Override
+    public String toString() {
+        return String.format("%s ; House{ basement= %b habitableLoft= %b sunExposure= %s type= %s ", super.toString(),basement,habitableLoft,sunExposure,type);
+    }
 
 }
