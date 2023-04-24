@@ -1,6 +1,4 @@
-package PPROG_PL05.VencimentosComComparador;
-
-import ZF_PPROG_TP04.figuras_comparator.Figura;
+package ZAV_PPROG_PL05.VencimentosComComparador;
 
 import java.util.*;
 

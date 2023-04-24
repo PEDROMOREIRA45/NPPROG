@@ -1,9 +1,6 @@
-package PPROG_PL05.VencimentosComComparable;
-
-import ZF_PPROG_TP04.figuras_comparable.Figura;
+package ZAV_PPROG_PL05.Vencimentos;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class MainVencimentos {
@@ -22,12 +19,6 @@ public class MainVencimentos {
 
         System.out.println("### Trabalhadores ###");
         listar(trabs);
-        System.out.println();
-        Collections.sort(trabs);
-        listar(trabs);
-        System.out.println();
-        Collections.reverse(trabs);
-        listar(trabs);
 
     }
 
@@ -39,10 +30,5 @@ public class MainVencimentos {
             }
         }
     }
-    private static void listarForEach(List<Trabalhador> trabs) {
-        for (Trabalhador trabalhador : trabs) {
-            System.out.printf("%s : %.2f %n", trabalhador.toString(), trabalhador.calcularVencimento());
-        }
-    }
-}
 
+}

@@ -1,4 +1,4 @@
-package PPROG_PL05.VencimentosComComparador;
+package ZAV_PPROG_PL05.VencimentosComComparador;
 
 /**
  * Representa um trabalhador à hora através do seu nome, do número de horas de

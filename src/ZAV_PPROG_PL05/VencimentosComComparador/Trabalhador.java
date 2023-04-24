@@ -1,6 +1,4 @@
-package PPROG_PL05.VencimentosComComparable;
-
-import java.util.Comparator;
+package ZAV_PPROG_PL05.VencimentosComComparador;
 
 /**
  * Esta classe permite a construção de uma hierarquia de classes para
@@ -9,7 +7,7 @@ import java.util.Comparator;
  *
  * @author ISEP-DEI-PPROG
  */
-public abstract class Trabalhador implements Comparable<Trabalhador>{
+public abstract class Trabalhador {
 
     /**
      * O nome do trabalhador.
@@ -71,17 +69,5 @@ public abstract class Trabalhador implements Comparable<Trabalhador>{
      * @return vencimento do trabalhador
      */
     public abstract float calcularVencimento();
-
-    public int compareTo(Trabalhador outroTrabalhador){
-        double vencimento1 = this.calcularVencimento();
-        double vencimento2 = outroTrabalhador.calcularVencimento();
-
-        if(vencimento1<vencimento2)
-            return -1;
-        else if(vencimento1>vencimento2)
-            return 1;
-        else
-            return 0;
-    }
 
 }

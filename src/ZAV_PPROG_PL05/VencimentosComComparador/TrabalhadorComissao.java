@@ -1,4 +1,4 @@
-package PPROG_PL05.VencimentosComComparador;
+package ZAV_PPROG_PL05.VencimentosComComparador;
 
 /**
  * Representa um trabalhador à comissão através do seu nome, salário base,

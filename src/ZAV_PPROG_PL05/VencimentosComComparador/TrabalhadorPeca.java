@@ -1,4 +1,4 @@
-package PPROG_PL05.VencimentosComComparable;
+package ZAV_PPROG_PL05.VencimentosComComparador;
 
 /**
  * Representa um trabalhador à peça através do seu nome e dos números de peças
@@ -44,7 +44,7 @@ public class TrabalhadorPeca extends Trabalhador {
      * Constrói uma instância de TrabalhadorPeca recebendo o nome, o número de
      * peças do tipo 1 e o número de peças do tipo 2.
      *
-     * @param nome             o nome do trabalhador à peça
+     * @param nome o nome do trabalhador à peça
      * @param numeroPecasTipo1 o número de peças 1 do trabalhador à peça
      * @param numeroPecasTipo2 o número de peças 2 do trabalhador à peça
      */
