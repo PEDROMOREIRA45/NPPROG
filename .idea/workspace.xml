@@ -4,40 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="PL04_FEITO AULA">
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL07/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL07/Empregado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PPROG_PL07/Tempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TESTE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/Contribuinte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ContribuinteComRendimentosTrabalho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/Desempregado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/Reformado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/TesteImpostos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/TrabalhadorContaOutrem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/TrabalhadorContaPropria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/Contribuinte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteContPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteDesempregado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteReformado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteTrabOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/MainContribuinte.java" afterDir="false" />
+    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="PL05">
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Property.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/MainVencimentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/Trabalhador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/TrabalhadorComissao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/TrabalhadorHora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/Vencimentos/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/TrabalhadorPeca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/MainVencimentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/Trabalhador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/TrabalhadorComissao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/TrabalhadorHora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparable/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/TrabalhadorPeca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/MainVencimentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/Trabalhador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/TrabalhadorComissao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/TrabalhadorHora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPROG_PL05/VencimentosComComparador/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/TrabalhadorPeca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -68,25 +42,38 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utilizador/NPPROG/src/PPROG_PL06/impostos&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/NPPROG/src/PPROG_PL05/VencimentosComComparador&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Utilizador\NPPROG\src\PPROG_PL06\impostos" />
+      <recent name="C:\Users\Public\NPPROG\src\PPROG_PL05\VencimentosComComparador" />
+      <recent name="C:\Users\Public\NPPROG\src\PPROG_PL05\VencimentosComComparable" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="PPROG_TP03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainContribuinte">
-    <configuration name="MainAuto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZF_PPROG_TP01.MainAuto" />
+  <component name="RunManager" selected="Application.PPROG_PL05.VencimentosComComparador.MainVencimentos">
+    <configuration name="MainAutomovel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PPRPG_TP05.automovelComMatricula.MainAutomovel" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZF_PPROG_TP01.*" />
+          <option name="PATTERN" value="PPRPG_TP05.automovelComMatricula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainContribuinte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PPROG_PL06.impostos.ZF_PPROG_PL03B.MainContribuinte" />
+    <configuration name="MainEscola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZAV_PPROG_PL04B.MainEscola" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PPROG_PL06.impostos.ZF_PPROG_PL03B.*" />
+          <option name="PATTERN" value="ZAV_PPROG_PL04B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZF_PPROG_PL01A.MainData" />
+    <configuration name="MainVencimentos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PPROG_PL05.Vencimentos.MainVencimentos" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZF_PPROG_PL01A.*" />
+          <option name="PATTERN" value="PPROG_PL05.Vencimentos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFiguras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZF_PPROG_TP02.MainFiguras" />
+    <configuration name="PPROG_PL05.VencimentosComComparable.MainVencimentos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PPROG_PL05.VencimentosComComparable.MainVencimentos" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZF_PPROG_TP02.*" />
+          <option name="PATTERN" value="PPROG_PL05.VencimentosComComparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFiguras2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZF_PPROG_TP02.MainFiguras2" />
+    <configuration name="PPROG_PL05.VencimentosComComparador.MainVencimentos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PPROG_PL05.VencimentosComComparador.MainVencimentos" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ZF_PPROG_TP02.*" />
+          <option name="PATTERN" value="PPROG_PL05.VencimentosComComparador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainContribuinte" />
-        <item itemvalue="Application.MainFiguras2" />
-        <item itemvalue="Application.MainFiguras" />
-        <item itemvalue="Application.MainData" />
-        <item itemvalue="Application.MainAuto" />
+        <item itemvalue="Application.PPROG_PL05.VencimentosComComparador.MainVencimentos" />
+        <item itemvalue="Application.PPROG_PL05.VencimentosComComparable.MainVencimentos" />
+        <item itemvalue="Application.MainVencimentos" />
+        <item itemvalue="Application.MainAutomovel" />
+        <item itemvalue="Application.MainEscola" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +152,63 @@
       <option name="presentableId" value="Default" />
       <updated>1680513276232</updated>
     </task>
+    <task id="LOCAL-00001" summary="TP01,TP02,PL01">
+      <created>1680517870516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680517870516</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TP03,PL02">
+      <created>1680558086090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680558086090</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TP03,PL03">
+      <created>1680606885775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680606885775</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TP04">
+      <created>1680627018661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680627018661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PL04_01">
+      <created>1680694109677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680694109677</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PL04_02,PL04B_00">
+      <created>1680715388304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680715388304</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PL04B_01, TP03_00">
+      <created>1680972337723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680972337723</updated>
+    </task>
+    <task id="LOCAL-00008" summary="PL05">
+      <created>1681035944063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681035944063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,8 +222,20 @@
       </map>
     </option>
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TP01,TP02,PL01" />
+    <MESSAGE value="TP03,PL02" />
+    <MESSAGE value="TP03,PL03" />
+    <MESSAGE value="TP04" />
+    <MESSAGE value="PL04_01" />
+    <MESSAGE value="PL04_02,PL04B_00" />
+    <MESSAGE value="PL04B_01, TP03_00" />
+    <MESSAGE value="PL05" />
+    <option name="LAST_COMMIT_MESSAGE" value="PL05" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NPPROG$MoradiaTest.ic" NAME="MoradiaTest Coverage Results" MODIFIED="1680557994204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PPROG_TP03.*</FILTER>
+    </SUITE>
   </component>
 </project>
