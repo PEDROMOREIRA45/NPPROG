@@ -1,4 +1,4 @@
-package AAA_Project;
+package AAA_Project.domain;
 
 import java.time.chrono.IsoEra;
 

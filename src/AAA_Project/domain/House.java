@@ -1,4 +1,4 @@
-package AAA_Project;
+package AAA_Project.domain;
 
 import AAA_Project.Repositories.PropertyTypeEnum;
 import AAA_Project.Repositories.SunExposureType;

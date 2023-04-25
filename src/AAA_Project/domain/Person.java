@@ -1,7 +1,8 @@
-package AAA_Project;
+package AAA_Project.domain;
 
 public class Person {
-    private String emailAddress;
+
+//    private UserDTO user;
     private int numberCitizen;
     private int tin;
     private int phoneNumber;

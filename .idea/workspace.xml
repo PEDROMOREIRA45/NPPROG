@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="Project">
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/LocationInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/PropertyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Repositories/PropertyTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Repositories/SunExposureType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Repositories/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Advertisement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/BusinessType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Organization_ATENCAO_MT_ALTERADO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/PersonInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/StoreManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/StoreNetWorkManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/TaskCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/LocationInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/LocationInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/PropertyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/PropertyType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -219,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682273529083</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Project">
+      <created>1682366467264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682366467264</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

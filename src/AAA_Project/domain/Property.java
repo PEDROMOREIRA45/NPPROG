@@ -1,32 +1,28 @@
-package AAA_Project;
+package AAA_Project.domain;
 
 import AAA_Project.Repositories.PropertyTypeEnum;
 
 public class Property implements LocationInterface{
 
-
-    //implements LocationInterface
+    private PropertyType propertyType;
     private double areaProperty;
     private double distanceCityCenter;
-    private PropertyTypeEnum type;
+
     private String street;
     private int zipCode;
     private String stateUS;
     private String city;
     private String district;
 
-    public Property(PropertyTypeEnum type, double areaProperty, double distanceCityCenter, String street, int zipCode, String stateUS, String city, String district){
-        this.type=type;
+    public Property(PropertyType type,double areaProperty,double distanceCityCenter,String street,int zipCode,String stateUS,String city,String district){
+        this.propertyType=type;
         this.areaProperty=areaProperty;
+        this.distanceCityCenter=distanceCityCenter;
         this.street=street;
         this.zipCode=zipCode;
         this.stateUS=stateUS;
         this.city=city;
         this.district=district;
-    }
-
-    public PropertyTypeEnum getType() {
-        return type;
     }
     public double getAreaProperty() {
         return areaProperty;
@@ -36,8 +32,8 @@ public class Property implements LocationInterface{
         return distanceCityCenter;
     }
 
-    public PropertyTypeEnum getPropertyType() {
-        return type;
+    public PropertyType getPropertyType() {
+        return propertyType;
     }
 
     @Override
@@ -68,8 +64,8 @@ public class Property implements LocationInterface{
     public void setDistanceCityCenter(double distanceCityCenter) {
         this.distanceCityCenter = distanceCityCenter;
     }
-    public void setPropertyType(PropertyTypeEnum type) {
-        this.type = type;
+    public void setPropertyType(PropertyType propertyType) {
+        this.propertyType = propertyType;
     }
     public void setStreet(String street) {
         this.street = street;
@@ -85,12 +81,5 @@ public class Property implements LocationInterface{
     }
     public void setDistrict(String district) {
         this.district = district;
-    }
-
-    @Override
-    public String toString() {
-        return String.format("Property{ areaProperty= %f distanceCityCenter= %f type= %s street= %s zipCode= %d stateUS= %s city= %s district= %s"
-                ,areaProperty,distanceCityCenter,type,street,zipCode,stateUS,city,district );
-
     }
 }
