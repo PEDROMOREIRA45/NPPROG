@@ -1,77 +1,137 @@
 package AAA_Project.domain;
 
-import java.time.chrono.IsoEra;
-
 public class Location {
+
+    /**
+     * Shows the Location's Street
+     */
     private String street;
-    private int zipCode;
-    private String stateUS;
+
+    /**
+     * Shows the Location's Zip Code
+     */
+    private String zip;
+
+    /**
+     * Shows the Location's State in USA
+     */
+    private String state;
+
+    /**
+     * Shows the Location's City
+     */
     private String city;
+
+    /**
+     * Shows the Location's District
+     */
     private String district;
 
-    private final String STREET_OMISSION = "No Adress";
-    private final int ZIPCODE_OMISSION = 00000;
-
-    private final String STATEUS_OMISSION="No Adress";
-    private final String CITY_OMISSION="No Adress";
-    private final String DISTRICT_OMISSION="No Adress";
-
-    public Location (String street, int zipCode, String stateUS, String city, String district ){
-        this.street= street;
-        this.zipCode= zipCode;
-        this.stateUS= stateUS;
-        this.city= city;
-        this.district= district;
+    /**
+     * Creates instance with
+     *
+     * @param street   Location's Street
+     * @param zip      Location's Zip Code
+     * @param state    Location's State in USA
+     * @param city     Location's City
+     * @param district Location's District
+     */
+    public Location(String street, String zip, String state, String city, String district) {
+        if (!validateLocation(street, zip, state, city, district))
+            throw new IllegalArgumentException("Location arguments are not valid, please try again.");
+        this.street = street;
+        this.zip = zip;
+        this.state = state;
+        this.city = city;
+        this.district = district;
     }
 
-    public Location (){
-        this.street= STREET_OMISSION;
-        this.zipCode= ZIPCODE_OMISSION;
-        this.stateUS= STATEUS_OMISSION;
-        this.city= CITY_OMISSION;
-        this.district= DISTRICT_OMISSION;
+    /**
+     * validates user inputed location
+     *
+     * @param street   Location's Street
+     * @param zip      Location's Zip Code
+     * @param state    Location's State in USA
+     * @param city     Location's City
+     * @param district Location's District
+     * @return wether the location is valid or not
+     */
+    private boolean validateLocation(String street, String zip, String state, String city, String district) {
+        if (street == null || street == "")
+            return false;
+        if (state == null || state == "")
+            return false;
+        if (city == null || city == "")
+            return false;
+        if (district == null || district == "")
+            return false;
+        if (!validateZip(zip))
+            return false;
+        return true;
     }
 
+    /**
+     * Returns Location's Street
+     *
+     * @return Location's Street
+     */
     public String getStreet() {
         return street;
     }
 
-    public int getZipCode() {
-        return zipCode;
+    /**
+     * Returns Location's Zip Code
+     *
+     * @return Location's Zip Code
+     */
+    public String getZip() {
+        return zip;
     }
 
-    public String getStateUS() {
-        return stateUS;
+    /**
+     * Returns Location's State in USA
+     *
+     * @return Location's State in USA
+     */
+    public String getState() {
+        return state;
     }
 
+    /**
+     * Returns Location's City
+     *
+     * @return Location's City
+     */
     public String getCity() {
         return city;
     }
 
+    /**
+     * Returns Location's District
+     *
+     * @return Location's District
+     */
     public String getDistrict() {
         return district;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
+    /**
+     * Validates zip code
+     *
+     * @param zip Location's Zip Code
+     * @return true if it's valid, false otherwise
+     */
+    public static boolean validateZip(String zip) {
+        int zipTester;
+        if (zip.length() != 5)
+            return false;
+        try {
+            zipTester = Integer.parseInt(zip);
+        } catch (Exception e) {
+            return false;
+        }
+        if (zipTester < 0)
+            return false;
+        return true;
     }
-
-    public void setZipCode(int zipCode) {
-        this.zipCode = zipCode;
-    }
-
-    public void setStateUS(String stateUS) {
-        this.stateUS = stateUS;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setDistrict(String district) {
-        this.district = district;
-    }
-
-    // a ver o to.String
-
 }

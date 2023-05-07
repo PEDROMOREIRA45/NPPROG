@@ -1,85 +1,99 @@
 package AAA_Project.domain;
 
-import AAA_Project.Repositories.PropertyTypeEnum;
+import java.util.List;
 
-public class Property implements LocationInterface{
+public class Property {
+
 
     private PropertyType propertyType;
-    private double areaProperty;
-    private double distanceCityCenter;
 
-    private String street;
-    private int zipCode;
-    private String stateUS;
-    private String city;
-    private String district;
 
-    public Property(PropertyType type,double areaProperty,double distanceCityCenter,String street,int zipCode,String stateUS,String city,String district){
-        this.propertyType=type;
-        this.areaProperty=areaProperty;
-        this.distanceCityCenter=distanceCityCenter;
-        this.street=street;
-        this.zipCode=zipCode;
-        this.stateUS=stateUS;
-        this.city=city;
-        this.district=district;
-    }
-    public double getAreaProperty() {
-        return areaProperty;
+    private double area;
+
+
+    private double distance;
+
+
+    private Location location;
+    private List<String> photographs;
+
+    public Property(PropertyType propertyType, double area, double distance, List<String> photographs, String street, String zip, String state, String city, String district) {
+        if (!validateProperty(propertyType, area, distance))
+            throw new IllegalArgumentException("Property arguments are not valid, please try again.");
+        this.location  =  new Location(street, zip, state, city, district);
+        this.propertyType = propertyType;
+        this.area = area;
+        this.distance = distance;
     }
 
-    public double getDistanceCityCenter() {
-        return distanceCityCenter;
+
+    public Property(PropertyType propertyType, double area, double distance, String street, String zip, String state, String city, String district) {
+        if (!validateProperty(propertyType, area, distance))
+            throw new IllegalArgumentException("Property arguments are not valid, please try again.");
+        this.location  =  new Location(street, zip, state, city, district);
+        this.propertyType = propertyType;
+        this.area = area;
+        this.distance = distance;
     }
+
+    private boolean validateProperty(PropertyType propertyType, double area, double distance) {
+        return !(area <= 0) && !(distance < 0);
+    }
+
+    public Property(PropertyType propertyType,double area,double distance){
+        this.propertyType=propertyType;
+        this.area=area;
+        this.distance=distance;
+    }
+
+
+    public double getArea() {
+        return area;
+    }
+
+
+    public double getdistance() {
+        return distance;
+    }
+
 
     public PropertyType getPropertyType() {
         return propertyType;
     }
 
-    @Override
+
     public String getStreet() {
-        return street;
+        return location.getStreet();
     }
-    @Override
-    public int getZipCode() {
-        return zipCode;
+
+
+    public String getZip() {
+        return location.getZip();
     }
-    @Override
-    public String getStateUS() {
-        return stateUS;
+
+
+    public String getState() {
+        return location.getState();
     }
-    @Override
+
+
     public String getCity() {
-        return city;
+        return location.getCity();
     }
-    @Override
+
+
     public String getDistrict() {
-        return district;
+        return location.getDistrict();
     }
 
-    public void setAreaProperty(double areaProperty) {
-        this.areaProperty = areaProperty;
+
+    public List<String> getPhotographs() { return photographs;}
+
+    public double getDistance() {
+        return distance;
     }
 
-    public void setDistanceCityCenter(double distanceCityCenter) {
-        this.distanceCityCenter = distanceCityCenter;
-    }
-    public void setPropertyType(PropertyType propertyType) {
-        this.propertyType = propertyType;
-    }
-    public void setStreet(String street) {
-        this.street = street;
-    }
-    public void setZipCode(int zipCode) {
-        this.zipCode = zipCode;
-    }
-    public void setStateUS(String stateUS) {
-        this.stateUS = stateUS;
-    }
-    public void setCity(String city) {
-        this.city = city;
-    }
-    public void setDistrict(String district) {
-        this.district = district;
+    public Location getLocation() {
+        return location;
     }
 }
