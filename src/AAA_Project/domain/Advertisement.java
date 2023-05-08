@@ -1,19 +1,19 @@
 package AAA_Project.domain;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Advertisement {
 
     private Date date;
-
-
     private Request request;
-
-
     private CommissionType commissionType;
-
-
     private double commissionValue;
+
+    private List<Visit> visits = new ArrayList<>();
+
+//    private List<>
 
     /**
      * Creates an instance of Advertisement
@@ -26,6 +26,7 @@ public class Advertisement {
         this.request = request;
         this.commissionType = commissionType;
         this.commissionValue = commissionValue;
+        this.visits = visits;
     }
 
     /**
@@ -99,4 +100,5 @@ public class Advertisement {
         }
         return true;
     }
+
 }

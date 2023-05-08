@@ -5,50 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="Project">
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/controller/ScheduleVisitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/controller/SubmitPropertyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/AdvertisementListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/CommissionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/CompanyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/NoTCompanyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/RequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/SunExposure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/AdvertisementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/BusinessTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/CommissionTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/PropertyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/PropertyTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/Repositories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/RequestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/StoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/SunExposureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/ui/ScheduleVisitUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/ui/SubmitPropertyUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/utils/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/AdvertisementVisitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Visit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AAA_Project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Repositories/PersonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Repositories/PropertyTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/repository/PropertyTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Repositories/SunExposureType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Advertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Agent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/BusinessType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/BusinessType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Organization_ATENCAO_MT_ALTERADO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/PropertyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/PropertyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/StoreManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/StoreNetWorkManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/TaskCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/AdvertisementListDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/RequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,26 +71,20 @@
       <recent name="PPROG_TP03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="NPPROG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AAA_Project.Main" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AAA_Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainAutomovel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PPRPG_TP05.automovelComMatricula.MainAutomovel" />
-      <module name="NPPROG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PPRPG_TP05.automovelComMatricula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparador.MainVencimentos" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparable.MainVencimentos" />
         <item itemvalue="Application.MainVencimentos" />
-        <item itemvalue="Application.MainAutomovel" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682366467264</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Project">
+      <created>1683473936866</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683473936866</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
