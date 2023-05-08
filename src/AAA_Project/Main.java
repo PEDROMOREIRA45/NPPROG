@@ -43,7 +43,7 @@ public class Main {
 
         // SHOW Properties in Advertisement
 
-        chooseAdvertisementFromList ()
+        createNewVisit ();
 
 
 
@@ -160,7 +160,7 @@ public class Main {
 
 
 
-    public void createNewVisit (){
+    public static void createNewVisit(){
         Scanner sc = new Scanner(System.in);
         Visit keepVisit;
         List <Advertisement> ads = AdvertisementRepository.getAdvertisements();
