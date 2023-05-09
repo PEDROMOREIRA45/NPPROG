@@ -6,9 +6,9 @@ import AAA_Project.repository.AdvertisementRepository;
 import AAA_Project.repository.PersonRepository;
 import AAA_Project.repository.PropertyRepository;
 import AAA_Project.repository.RequestRepository;
+import AAA_Project.utils.Email;
 
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,19 +33,17 @@ public class Main {
 //        CommissionType comm2 = new CommissionType("PERCENTAGE");
 
         //  FAZER REQUEST
-        createNewRequest ();
-        createNewRequest ();
+        createNewRequest();
+        createNewRequest();
         //CRIAR ADVERTISEMENT
-        createNewAd ();
-        createNewAd ();
+        createNewAd();
+        createNewAd();
 
         // Schedule Visit
 
         // SHOW Properties in Advertisement
 
-        createNewVisit ();
-
-
+        createNewVisit();
 
 
         // create new list for visits
@@ -53,11 +51,10 @@ public class Main {
 //        List<AdvertisementVisitDTO> advertisementListVisitDTO=null;
 
 
-
-
     }
 
-    public static Property choosePropertyFromList (List<Property> properties) {
+
+    public static Property choosePropertyFromList(List<Property> properties) {
         Scanner sc = new Scanner(System.in);
         Property propertyChoice;
         System.out.println("\nview Properties");
@@ -69,7 +66,8 @@ public class Main {
         propertyChoice = properties.get(option - 1);
         return propertyChoice;
     }
-    public static Person chooseOwnerFromList (List<Person> persons) {
+
+    public static Person chooseOwnerFromList(List<Person> persons) {
         Scanner sc = new Scanner(System.in);
         Person ownerChoice;
         persons = PersonRepository.getPersons();
@@ -81,7 +79,8 @@ public class Main {
         ownerChoice = persons.get(option - 1);
         return ownerChoice;
     }
-    public static Person chooseAgentFromList (List<Person> persons) {
+
+    public static Person chooseAgentFromList(List<Person> persons) {
         Scanner sc = new Scanner(System.in);
         Person agentChoice;
         persons = PersonRepository.getPersons();
@@ -93,7 +92,8 @@ public class Main {
         agentChoice = persons.get(option - 1);
         return agentChoice;
     }
-    public static void createNewRequest (){
+
+    public static void createNewRequest() {
         List<Property> properties = PropertyRepository.getProperties();
         List<Person> persons = PersonRepository.getPersons();
         BusinessType b1 = new BusinessType("SAlE");
@@ -105,7 +105,8 @@ public class Main {
         Person keepAgent = chooseAgentFromList(persons);
         RequestRepository.createNewRequestSale(keepProperty, keepOwner, b1, keepAgent, 120000);
     }
-    public static Request chooseRequestFromList (List<Request> request) {
+
+    public static Request chooseRequestFromList(List<Request> request) {
         Scanner sc = new Scanner(System.in);
         List<Request> requestList = RequestRepository.getRequestList();
         Request requestOption = null;
@@ -117,17 +118,26 @@ public class Main {
         requestOption = requestList.get(option - 1);
         return requestOption;
     }
-    public static void createNewAd (){
-        List <Request> requests = RequestRepository.getRequestList();
+
+    public static void createNewAd() {
+        List<Request> requests = RequestRepository.getRequestList();
         CommissionType comm1 = new CommissionType("FIXED");
-        Request keepRequest = chooseRequestFromList (requests);
+        Request keepRequest = chooseRequestFromList(requests);
         AdvertisementRepository.createNewAdvertisement(keepRequest, comm1, 150.00);
     }
-    public static Advertisement chooseAdvertisementFromList (List<Advertisement> ads){
-        Scanner sc = new Scanner(System.in);
-        Advertisement adChoice;
-//        ads = AdvertisementRepository.getAdvertisements();
-        System.out.println("\nList of Property to Sale or Rent");
+
+
+    public static Advertisement chooseAdvertisementFromList(List<Advertisement> ads) {
+        Advertisement adVisitChoice;
+        List<AdvertisementVisitDTO> keepAdVisitList = createNewAdvertAllInformationList(ads);
+        List<AdvertisementVisitDTO> keepAdVisitListSortedByDate = sortAdVisitListByDate(keepAdVisitList);
+        displayAdVisitList(keepAdVisitListSortedByDate);
+        adVisitChoice = chooseFromList(keepAdVisitListSortedByDate);
+        return adVisitChoice;
+    }
+
+    public static List<AdvertisementVisitDTO> createNewAdvertAllInformationList(List<Advertisement> ads) {
+        List<AdvertisementVisitDTO> adsVisitList = new ArrayList<AdvertisementVisitDTO>();
         for (int i = 0; i < ads.size(); i++) {
             Request keepRequest = ads.get(i).getRequest();
             double keepSalePrice = keepRequest.getSalePrice();
@@ -141,36 +151,115 @@ public class Main {
             String keepCity = keepProperty.getCity();
             String keepDistrict = keepProperty.getDistrict();
             List<String> keepPhotographs = keepProperty.getPhotographs();
+            Date keepDate = ads.get(i).getDate();
+            Advertisement keepAd = ads.get(i);
+            AdvertisementVisitDTO adsVisit = new AdvertisementVisitDTO(keepArea, keepdistance, keepPropertyType,
+                    keepStreet, keepZip, keepState, keepCity, keepDistrict, keepPhotographs, keepSalePrice, keepDate, keepRequest, keepAd);
+            adsVisitList.add(adsVisit);
+        }
+        return adsVisitList;
+    }
 
+    public static List<AdvertisementVisitDTO> sortAdVisitListByDate(List<AdvertisementVisitDTO> adsVisitList) {
+        Comparator<AdvertisementVisitDTO> c1 = new Comparator<AdvertisementVisitDTO>() {
+            public int compare(AdvertisementVisitDTO a1, AdvertisementVisitDTO a2) {
+                Date d1 = a1.getKeepDate();
+                Date d2 = a2.getKeepDate();
+
+                if (d1.compareTo(d2) < 0) {
+                    return -1;
+                } else if (d1.compareTo(d2) > 0) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
+        };
+        Collections.sort(adsVisitList, c1);
+        return adsVisitList;
+    }
+
+    public static void displayAdVisitList(List<AdvertisementVisitDTO> adsVisitList) {
+        for (int i = 0; i < adsVisitList.size(); i++) {
+            Request keepRequest = adsVisitList.get(i).getKeepRequest();
+            double keepSalePrice = keepRequest.getSalePrice();
+            Property keepProperty = keepRequest.getProperty();
+            double keepArea = keepProperty.getArea();
+            double keepdistance = keepProperty.getdistance();
+            String keepStreet = keepProperty.getStreet();
+            String keepZip = keepProperty.getZip();
+            String keepState = keepProperty.getState();
+            String keepCity = keepProperty.getCity();
+            String keepDistrict = keepProperty.getDistrict();
+            List<String> keepPhotographs = keepProperty.getPhotographs();
             System.out.println("\nPlease select which Advertisment you want to choose:");
             System.out.printf("Property %d\n area %f mts; Distance from Center: %f kms: \n" +
                             "Location: Street %s, State %s, City %s, District %s, ZIP Code: %s\n"
-                    ,(i + 1),keepArea, keepdistance, keepStreet,keepState,keepCity,keepDistrict,keepZip);
-            for (int j = 0; j < keepPhotographs.size(); j++){
+                    , (i + 1), keepArea, keepdistance, keepStreet, keepState, keepCity, keepDistrict, keepZip);
+            for (int j = 0; j < keepPhotographs.size(); j++) {
                 System.out.println(keepPhotographs.get(j));
+                System.out.println("Sale Price: " + keepSalePrice);
             }
-            System.out.println("Sale Price"+keepSalePrice);
-
         }
+    }
+
+    public static Advertisement chooseFromList(List<AdvertisementVisitDTO> ads) {
+        Scanner sc = new Scanner(System.in);
+        AdvertisementVisitDTO ad = null;
+        Advertisement adChoice = null;
         System.out.println("\nPlease select which Advertisment you want to choose:");
         int option = Integer.parseInt(sc.nextLine());
-        adChoice = ads.get(option - 1);
+        ad = ads.get(option - 1);
+        adChoice = ad.getKeepAd();
         return adChoice;
     }
 
+    public static Visit scheduleVisit(Advertisement ad) {
+        Scanner sc = new Scanner(System.in);
+        Email email= new Email("client@gmail.com");
+        boolean valid;
+        int visitYear=0, visitMonth=0, visitDay=0, visitHour=0;
+        List<Visit> visits = ad.getVisits();
+        do {
+            System.out.println("Year");
+            int keepYear = Integer.parseInt(sc.nextLine());
+            System.out.println("Month");
+            int keepMonth = Integer.parseInt(sc.nextLine());
+            System.out.println("Day");
+            int keepDay = Integer.parseInt(sc.nextLine());
+            System.out.println("Hour");
+            int keepHour = Integer.parseInt(sc.nextLine());
+            valid = true;
+            for (int i = 0; i < visits.size(); i++) {
+                int year = visits.get(i).getYear();
+                int month = visits.get(i).getMonth();
+                int day = visits.get(i).getDay();
+                int hour = visits.get(i).getHour();
+                if ((keepYear == year) && (keepMonth == month) && (keepDay == day) && (keepHour == hour)) {
+                    valid = false;
+                }
+            }
+            if (valid == false){
+                System.out.println("This time is ocuppied please choose new time:");
+            }
+            else {
+                visitYear=keepYear; visitMonth=keepMonth; visitDay=keepDay; visitHour=keepHour;
+            }
+        } while (valid == false);
+        return new Visit(visitYear,visitMonth,visitDay,visitHour,email);
+    }
 
 
-    public static void createNewVisit(){
+    public static void createNewVisit() {
         Scanner sc = new Scanner(System.in);
         Visit keepVisit;
-        List <Advertisement> ads = AdvertisementRepository.getAdvertisements();
+        List<Advertisement> ads = AdvertisementRepository.getAdvertisements();
         Advertisement keepAd = chooseAdvertisementFromList(ads);
+        keepVisit = scheduleVisit(keepAd);
 
-        // continue ask for data for the visit ...
-        // verify is there is another schedule visit in that slot
         // show the conditios to validate
-        // Schedule the visit
-
+        // Schedule the visit (create new visit)
+        // confirmation of operation sucess
 
     }
 

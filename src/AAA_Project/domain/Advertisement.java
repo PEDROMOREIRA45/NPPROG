@@ -101,4 +101,7 @@ public class Advertisement {
         return true;
     }
 
+    public List<Visit> getVisits() {
+        return visits;
+    }
 }

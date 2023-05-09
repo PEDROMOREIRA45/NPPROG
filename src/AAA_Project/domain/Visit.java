@@ -1,23 +1,22 @@
 package AAA_Project.domain;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import AAA_Project.utils.Email;
 
 public class Visit {
 
-    public int year;
-    public int month;
-    public int day;
-    public int hour;
-    public String clientEmail;
+    private int year;
+    private int month;
+    private int day;
+    private int hour;
+    private Email clientEmail;
 
-    public final int YEAR_BY_OMISSION = 0;
-    public final int MONTH_BY_OMISSION = 0;
-    public final int DAY_BY_OMISSION = 0;
-    public final int HOUR_BY_OMISSION = 0;
-    public final String CLIENTEEMAIL_BY_OMISSION = "NO CLIENT";
+    private final int YEAR_BY_OMISSION = 0;
+    private final int MONTH_BY_OMISSION = 0;
+    private final int DAY_BY_OMISSION = 0;
+    private final int HOUR_BY_OMISSION = 0;
+    private final Email CLIENTEEMAIL_BY_OMISSION = null;
 
-    public Visit (int year,int month,int day,int hour, String clientEmail){
+    public Visit (int year,int month,int day,int hour, Email clientEmail){
         this.year =year;
         this.month= month;
         this.day =day;
@@ -30,7 +29,7 @@ public class Visit {
         this.month= MONTH_BY_OMISSION;
         this.day =DAY_BY_OMISSION;
         this.hour = HOUR_BY_OMISSION;
-        this.clientEmail =CLIENTEEMAIL_BY_OMISSION;
+        this.clientEmail = CLIENTEEMAIL_BY_OMISSION;
     }
 
     public int getYear() {
@@ -49,7 +48,7 @@ public class Visit {
         return hour;
     }
 
-    public String getClientEmail() {
+    public Email getClientEmail() {
         return clientEmail;
     }
 
@@ -69,7 +68,7 @@ public class Visit {
         this.hour = hour;
     }
 
-    public void setClientEmail(String clientEmail) {
+    public void setClientEmail(Email clientEmail) {
         this.clientEmail = clientEmail;
     }
 }
