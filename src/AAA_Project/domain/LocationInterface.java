@@ -1,4 +1,4 @@
-package AAA_Project;
+package AAA_Project.domain;
 
 public interface LocationInterface {
     String getStreet();

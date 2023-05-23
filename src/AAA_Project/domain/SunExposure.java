@@ -1,9 +1,9 @@
-package AAA_Project.Repositories;
+package AAA_Project.domain;
 
-public class PropertyType {
+public class SunExposure {
     private String description;
 
-    public PropertyType (String description){
+    public SunExposure(String description){
         this.description=description;
     }
 

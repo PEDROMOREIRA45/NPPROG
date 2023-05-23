@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="Project">
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/LocationInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/PropertyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Repositories/PropertyTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AAA_Project/Repositories/SunExposureType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Advertisement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/AdvertisementVisitDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/AdvertisementVisitDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Visit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,26 +67,20 @@
       <recent name="PPROG_TP03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="NPPROG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AAA_Project.Main" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AAA_Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainAutomovel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PPRPG_TP05.automovelComMatricula.MainAutomovel" />
-      <module name="NPPROG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PPRPG_TP05.automovelComMatricula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparador.MainVencimentos" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparable.MainVencimentos" />
         <item itemvalue="Application.MainVencimentos" />
-        <item itemvalue="Application.MainAutomovel" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +209,35 @@
       <option name="project" value="LOCAL" />
       <updated>1682273529083</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Project">
+      <created>1682366467264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682366467264</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Project">
+      <created>1683473936866</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683473936866</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Project">
+      <created>1683563352935</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683563352935</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Project">
+      <created>1683563438902</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683563438902</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

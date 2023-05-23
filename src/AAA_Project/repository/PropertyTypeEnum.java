@@ -1,4 +1,4 @@
-package AAA_Project.Repositories;
+package AAA_Project.repository;
 
 public enum PropertyTypeEnum {
     HOUSE,
