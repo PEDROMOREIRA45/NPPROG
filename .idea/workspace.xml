@@ -4,12 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="Project">
+    <list default="true" id="a0b8dd46-d657-453b-8ab5-38afb271e143" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Datas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL07/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL07/Empregado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL09/Aniversario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL09/DiaInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL09/MesInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL09/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/PL10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/impostos/Contribuinte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/impostos/ContribuinteComRendimentosTrabalho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/impostos/Desempregado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/impostos/Reformado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/impostos/TesteImpostos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/impostos/TrabalhadorContaOutrem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL10/impostos/TrabalhadorContaPropria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP6/TP6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP6/excecaoChecked/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP6/excecaoUnchecked/ArgumentoForaDosLimitesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP6/excecaoUnchecked/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP6/excecaoUnchecked/TestePessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Advertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/AdvertisementVisitDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/AdvertisementVisitDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAA_Project/domain/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAA_Project/domain/Visit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NPPROG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NPPROG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL07/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL09/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL07/Empregado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_PL07/Tempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL07/Tempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComMatricula/Automovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05COMPL/AutomovelComMatricula/Automovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComMatricula/MainAutomovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05COMPL/AutomovelComMatricula/MainAutomovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComMatricula/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05COMPL/AutomovelComMatricula/Matricula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComProprietario/Automovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05COMPL/AutomovelComProprietario/Automovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP05COMPL/AutomovelComProprietario/MainAutomovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05COMPL/AutomovelComProprietario/MainAutomovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP05COMPL/biblioteca/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05COMPL/biblioteca/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPROG_TP05COMPL/biblioteca/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05COMPL/biblioteca/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP05/automovelComMatricula/Automovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05/automovelComMatricula/Automovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP05/automovelComMatricula/MainAutomovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05/automovelComMatricula/MainAutomovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP05/automovelComMatricula/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05/automovelComMatricula/Matricula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP05/biblioteca/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05/biblioteca/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPRPG_TP05/biblioteca/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_TP05/biblioteca/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL03A/MainVencimentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL03A/Trabalhador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL03A/TrabalhadorComissao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL03A/TrabalhadorHora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL03A/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL03A/TrabalhadorPeca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/ContGas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/Contador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContadorElect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/ContadorElect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContadorElectTarfSimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/ContadorElectTarfSimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/Contadores/Contador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadorElect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/Contadores/ContadorElect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresElecBiHorar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/Contadores/ContadoresElecBiHorar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresElecNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/Contadores/ContadoresElecNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/Contadores/ContadoresGas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/Contadores/ContadoresGasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/Contadores/ContadoresGasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/ContadoresElecBiHorar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/ContadoresElecBiHorar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04/MainContadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04/MainContadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/Escola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04B/Escola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04B/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/EstudanteBolseiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04B/EstudanteBolseiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/EstudanteSemBolsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04B/EstudanteSemBolsa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/MainEscola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04B/MainEscola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL04B/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL04B/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/Vencimentos/MainVencimentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/Vencimentos/Trabalhador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/Vencimentos/TrabalhadorComissao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/Vencimentos/TrabalhadorHora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/Vencimentos/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/Vencimentos/TrabalhadorPeca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparable/MainVencimentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparable/Trabalhador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparable/TrabalhadorComissao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparable/TrabalhadorHora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparable/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparable/TrabalhadorPeca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/MainVencimentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparador/MainVencimentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/Trabalhador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparador/Trabalhador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/TrabalhadorComissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparador/TrabalhadorComissao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/TrabalhadorHora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparador/TrabalhadorHora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZAV_PPROG_PL05/VencimentosComComparador/TrabalhadorPeca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL05/VencimentosComComparador/TrabalhadorPeca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/Contribuinte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/Contribuinte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ContribuinteComRendimentosTrabalho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/ContribuinteComRendimentosTrabalho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/Desempregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/Desempregado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/Reformado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/Reformado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/TesteImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/TesteImpostos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/TrabalhadorContaOutrem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/TrabalhadorContaOutrem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/TrabalhadorContaPropria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/TrabalhadorContaPropria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/Contribuinte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/ZF_PPROG_PL03B/Contribuinte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteContPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteContPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteDesempregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteDesempregado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteReformado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteReformado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteTrabOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/ZF_PPROG_PL03B/ContribuinteTrabOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zPPROG_PL06/impostos/ZF_PPROG_PL03B/MainContribuinte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZF_PPROG_PL06/impostos/ZF_PPROG_PL03B/MainContribuinte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +103,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,23 +148,30 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ZF_PPROG_PL10.impostos" />
       <recent name="PPROG_TP03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="NPPROG" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AAA_Project.Main" />
       <module name="NPPROG" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AAA_Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAutomovel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZF_PPROG_TP05.automovelComMatricula.MainAutomovel" />
+      <module name="NPPROG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ZF_PPROG_TP05.automovelComMatricula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparador.MainVencimentos" />
         <item itemvalue="Application.PPROG_PL05.VencimentosComComparable.MainVencimentos" />
         <item itemvalue="Application.MainVencimentos" />
+        <item itemvalue="Application.MainAutomovel" />
       </list>
     </recent_temporary>
   </component>
@@ -209,35 +300,7 @@
       <option name="project" value="LOCAL" />
       <updated>1682273529083</updated>
     </task>
-    <task id="LOCAL-00010" summary="Project">
-      <created>1682366467264</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1682366467264</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Project">
-      <created>1683473936866</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1683473936866</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Project">
-      <created>1683563352935</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1683563352935</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Project">
-      <created>1683563438902</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1683563438902</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
